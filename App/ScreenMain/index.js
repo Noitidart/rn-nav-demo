@@ -3,7 +3,8 @@ import { View, Text, Button } from 'react-native';
 
 export default class ScreenMain extends Component {
     static navigationOptions = {
-        title: 'Main Screen'
+        title: 'Main Screen',
+        header: null
     }
     render() {
         return (
